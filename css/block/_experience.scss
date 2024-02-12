@@ -1,0 +1,148 @@
+.experience {
+
+    margin-bottom: 100px;
+
+    &_container {
+        padding: 0;
+    }
+
+    &_header {
+        font-family: Roboto;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 4px;
+        text-align: left;
+        color: rgba(255, 94, 105, 1);
+        text-align: center;
+    }
+
+    &_list {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        list-style-type: none;
+
+    }
+
+    
+
+    &_item-header {
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    &_all {
+        display: flex;
+        align-items: center;
+        width: 575px;
+        justify-content: space-between;
+        height: 120px;
+    }
+
+    
+
+    &_item-text {
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0;
+        margin-bottom: 9px;
+
+
+    }
+
+    &_item-tx {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0;
+
+
+    }
+
+    &_right {
+        width: 167px;
+    }
+
+    &_right-text {}
+
+    &_line {
+        width: 575.8px;
+        height: 1px;
+        margin: 0;
+        margin-bottom: 34px;
+
+    }
+
+    .experience_im {
+        margin-left: 140px;
+
+    }
+
+    .experience_right-im {
+        margin-left: 140px;
+    }
+
+    .experience_left-work {
+        display: flex;
+
+
+    }
+
+    .experience_lef-display {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 1163px) {
+    .experience {
+        &_item {
+            width: 450px;
+            margin-bottom: 55px;
+        }
+
+        &_all {
+            width: 450px;
+        }
+
+        &_line {
+            width: 447px;
+        }
+    }
+}
+
+@media only screen and (max-width: 942px) {
+    .experience {
+        &_list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .experience {
+        &_item {
+            width: 350px;
+            margin-bottom: 55px;
+        }
+
+        &_all {
+            width: 350px;
+        }
+
+        &_line {
+            width: 347px;
+        }
+    }
+}
